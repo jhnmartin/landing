@@ -100,25 +100,6 @@ const isSunday = ref(false);
       </UPricingGrid>
     </ULandingSection>
 
-    <ULandingSection
-      :headline="page.testimonials.headline"
-      :title="page.testimonials.title"
-      :description="page.testimonials.description"
-    >
-      <UPageColumns
-        id="testimonials"
-        class="xl:columns-4 scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
-      >
-        <div
-          v-for="(testimonial, index) in page.testimonials.items"
-          :key="index"
-          class="break-inside-avoid"
-        >
-          <ULandingTestimonial v-bind="testimonial" />
-        </div>
-      </UPageColumns>
-    </ULandingSection>
-
     <!--
       <ULandingSection
       class="bg-primary-50 dark:bg-primary-400 dark:bg-opacity-10"
@@ -146,8 +127,25 @@ const isSunday = ref(false);
         }"
         class="max-w-4xl mx-auto"
       />
-      <EbTicketModal />
     </ULandingSection>
-    <img src="/images/dive-bar.png" />
+
+    <ULandingSection
+      :headline="page.testimonials.headline"
+      :title="page.testimonials.title"
+      :description="page.testimonials.description"
+    >
+      <UPageColumns
+        id="testimonials"
+        class="xl:columns-4 scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
+      >
+        <div
+          v-for="(testimonial, index) in page.testimonials.items"
+          :key="index"
+          class="break-inside-avoid"
+        >
+          <ULandingTestimonial v-bind="testimonial" />
+        </div>
+      </UPageColumns>
+    </ULandingSection>
   </div>
 </template>
