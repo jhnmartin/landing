@@ -11,9 +11,9 @@ const exampleCallback = () => {
 const createWidget = () => {
   window.EBWidgets.createWidget({
     widgetType: "checkout",
-    eventId: 795728173387,
+    eventId: crawl.eventbriteId,
     modal: true,
-    modalTriggerElementId: "eventbrite-widget-modal-trigger-795728173387",
+    modalTriggerElementId: `eventbrite-widget-modal-trigger-${crawl.eventbriteId}`,
     onOrderComplete: exampleCallback,
   });
 };
@@ -41,12 +41,8 @@ onMounted(() => {
       >
     </noscript>
     <!-- You can customize this button any way you like -->
-    <button
-      :id="`eventbrite-widget-modal-trigger-795728173387`"
-      type="button"
-      class="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 dark:bg-lime-300 px-8 py-3 text-base font-medium text-white dark:text-zinc-900 hover:bg-indigo-700 dark:hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-lime-300 focus:ring-offset-2"
-    >
+    <UButton :id="`eventbrite-widget-modal-trigger-${crawl.eventbriteId}`">
       Buy Tickets
-    </button>
+    </UButton>
   </div>
 </template>

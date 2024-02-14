@@ -76,28 +76,11 @@ const isSunday = ref(false);
     </ULandingSection>
 
     <ULandingSection
+      id="pricing"
       :title="page.pricing.title"
       :description="page.pricing.description"
       :headline="page.pricing.headline"
     >
-      <UPricingToggle
-        v-model="isSunday"
-        class="max-w-xs mx-auto"
-        left="March 16th"
-        right="March 17th"
-      />
-      <UPricingGrid
-        id="pricing"
-        compact
-        class="scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
-      >
-        <UPricingCard
-          v-for="(plan, index) in page.pricing.plans"
-          :key="index"
-          v-bind="plan"
-          :price="isSunday ? plan.price.sunday : plan.price.saturday"
-        />
-      </UPricingGrid>
     </ULandingSection>
 
     <!--
@@ -147,5 +130,6 @@ const isSunday = ref(false);
         </div>
       </UPageColumns>
     </ULandingSection>
+    <EbTicketModal eventbriteId="795728173387" />
   </div>
 </template>

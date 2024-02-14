@@ -76,7 +76,7 @@ pricing:
       scale: true
       align: top
       button:
-        label: Get Tickets
+        label: Get Tickets now
       features:
         - ☘️ Up To 50% Off Drinks
         - ☘️ Kick-off, Halftime & After Party
@@ -118,51 +118,30 @@ testimonials:
       author:
         name: Megan Russell
         description: Cleveland, OH
-        avatar:
-          src: https://i.pravatar.cc/120?img=1
-          loading: lazy
     - quote: My Friends and I had sooo much fun at the Christmas Bar Crawl & we're really excited for the StaticRange. Patty's Bar Crawl! It's such a good time!
       author:
         name: Shania Holmes
-        description: Cleveland, OH
-        avatar:
-          src: https://i.pravatar.cc/120?img=7
-          loading: lazy
+        description: Mentor, OH
     - quote: Great bar crawls everytime. Lots of options depending on what you're in the mood for and what kind of vibe you're looking for. The drink and food specials are also good and the people running things tend to be very nice. Would definitely recommend.
       author:
         name: Sharon Pruit-Young
-        description: CEO at Company
-        avatar:
-          src: https://i.pravatar.cc/120?img=3
-          loading: lazy
+        description: Cleveland, OH
     - quote: Bar Crawl Live is an awesome event. This has been a tradition for my friends and I. We've attended the Tacos & Margaritas Crawl, Halloween & St Patrick's day crawl. Venues are always nice, great drink and food specials.
       author:
         name: Minnie J
-        description: Cleveland, OH
-        avatar:
-          src: https://i.pravatar.cc/120?img=5
-          loading: lazy
+        description: Parma, OH
     - quote: We went for halloween bar crawl ans it was a blast! And we recently bought 10 tickets for the st pattys day and they generously took their time to help us switch every ticket to a different date! Whoever I was talking to on insta was so kind, patient and extremely helpful. Will always buy tickets to participate in detroit bar crawls.
       author:
         name: Kayleen Rubio
-        description: Cleveland, OH
-        avatar:
-          src: https://i.pravatar.cc/120?img=8
-          loading: lazy
+        description: Lakewood, OH
     - quote: I wanted to go their St Patrick's day bar crawl as my bday is in st pattys day. I reached out and they hooked me up with a free ticket. I had already bought 6 for some friends but who doesn't like free stuff. They responded right away made everything fast and easy.
       author:
         name: Jerry Zavala
         description: Cleveland, OH
-        avatar:
-          src: https://i.pravatar.cc/120?img=9
-          loading: lazy
     - quote: The funnest bar crawls I've ever done and so well organizaed!!! 10/10.
       author:
         name: Katherine Ruiz
-        description: Cleveland, OH
-        avatar:
-          src: https://i.pravatar.cc/120?img=9
-          loading: lazy
+        description: Strongsville, OH
 cta:
   title: Get started today
   description: Nisi mollit id aliquip sunt est laborum sit sit.
