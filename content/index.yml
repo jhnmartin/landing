@@ -1,26 +1,25 @@
 title: Nuxt UI Pro - Landing template
 description: Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
 hero:
-  title: Build your landing in seconds
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+  title: The Official St. Patricks Day Bar Crawl
+  description: Get ready for a St. Patrick's Day extravaganza in Cleveland's W 6th St, Downtown, Warehouse District. Join the sea of green parade participants as you crawl through the city's hottest bars, enjoying Irish-themed cocktails and embracing the festive spirit of the Emerald Isle.
   headline:
-    label: Made with Nuxt UI Pro
-    to: https://ui.nuxt.com/pro
-    icon: i-heroicons-arrow-top-right-on-square-20-solid
+    label: I'm from Cleveland X Bar Crawl Live!
+    to: #pricing
+    icon:
   links:
-    - label: Get started
+    - label: Get Tickets
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
-      to: '#features'
+      to: "#pricing"
       size: xl
-    - label: Use this template
-      icon: i-simple-icons-github
+    - label: Read The FAQs
+      icon: i-heroicons-question-mark-circle
       size: xl
       color: gray
-      to: https://github.com/nuxt-ui-pro/landing
-      target: _blank
+      to: "#faq"
 logos:
-  title: Trusted by the world's best
+  title: Join Us For The Ultimate St. Patrick's Day Bar Crawl Experience and Visit the Best Bars in Cleveland
   icons:
     - i-simple-icons-amazonaws
     - i-simple-icons-heroku
@@ -28,123 +27,147 @@ logos:
     - i-simple-icons-vercel
     - i-simple-icons-cloudflare
 features:
-  headline: Features
-  title: Why choose our service?
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  headline: Bar Crawls Include
+  title: Join Us For The Ultimate St. Patrick's Day Bar Crawl Experience and Visit the Best Bars in Cleveland
+  description: Enjoy all the green and gold you'd expect this St Paddy's Day and so much more. Take a peek at just some of what makes Bar Crawl Live's events such a shamrocking good time!
   items:
-    - title: Easy to use
-      description: Id laborum laboris duis nostrud excepteur ut velit nulla magna Lorem proident non.
-      icon: i-heroicons-cog
-    - title: Reliable
-      description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
-      icon: i-heroicons-check
-    - title: Secure
-      description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing non anim ullamco.
-      icon: i-heroicons-lock-closed
-    - title: Fast
-      description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod sint aliquip nisi voluptate.
-      icon: i-heroicons-rocket-launch
-    - title: Affordable
-      description: Reprehenderit fugiat elit in do ipsum ut pariatur.
-      icon: i-heroicons-currency-dollar
-    - title: Scalable
-      description: Lorem deserunt et eiusmod. Ea in consectetur minim officia ullamco enim deserunt est.
-      icon: i-heroicons-chart-bar
+    - title: Waived Cover Charges
+      description: Gain FREE exclusive entry to the hottest bars and nightclubs with your St Patrick's Day bar crawl wristband.
+      icon: i-noto-four-leaf-clover
+    - title: Up to 50% OFF Specials
+      description: Celebrate with wristband-only discounts on Irish-themed drinks, shots, beers, and food.
+      icon: i-noto-clinking-beer-mugs
+    - title: DJ's & Live Music at Select Venues
+      description: Party with Cleveland's favorite live music and DJs at select venues throughout crawl.
+      icon: i-noto-speaker-high-volume
+    - title: Kick-off, Halftime & After Party
+      description: Hosted at your favorite bars, with exclusive drink specials and contests.
+      icon: i-noto-party-popper
+    - title: Digital Bar Map and specials
+      description: All the info you need to know about the crawl, right in your pocket.
+      icon: i-noto-mobile-phone
+    - title: Contests, Parties and More
+      description: Crawl with us and hundreds of other party-goers, jive to the music of local DJs, and flaunt your most festive St Paddy's Day attire.
+      icon: i-noto-trophy
 pricing:
-  headline: Pricing
-  title: A plan for every need
-  description: Pariatur laborum dolor ea commodo sit aute aliquip qui et cillum excepteur.
+  headline: Tickets
+  title: Two Dates to Choose From Get Tickets Now
+  description: Join the big event on Saturday or do Sunday Funday for St Patrick's Day.
   plans:
-    - title: Basic
-      description: A basic plan for individuals.
-      price: $9.99
+    - title: General Admission
+      description: Standard Tickets From Bar Crawl Live
+      price:
+        saturday: $20.00
+        sunday: $20.00
       align: top
       button:
-        label: Get Started
+        label: Get Tickets
         color: gray
+        disabled: true
       features:
-        - 1 GB Storage
-        - 1 Email Account
-        - 1 Domain
-        - 1 Website
-        - 1 Database
-        - 1 SSL Certificate
-        - 1 Support Ticket
-    - title: Standard
-      description: A standard plan for small teams.
-      price: $19.99
+        - ☘️ Up To 50% Off Drinks
+        - ☘️ Kick-off, Halftime & After Party
+        - ☘️ Up To 20% Off Select Foods
+        - ☘️ 100s of participants
+        - ☘️ Digital Bar List
+        - ☘️ DJs @ Select Bars
+        - ☘️ Door Cover Charges Waived
+        - ☘️ Free Entry To Top Venues
+        - ☘️ Photographers & or Videographers
+        - ☘️ Tasty Themed Drink Specials
+    - title: I'm From Cleveland tix
+      description: get your IFC discounted tickets and take 20% off general admission.
+      price:
+        saturday: save 20%
+        sunday: save 20%
       highlight: true
       scale: true
       align: top
       button:
-        label: Get Started
+        label: Get Tickets
       features:
-        - 10 GB Storage
-        - 10 Email Accounts
-        - 10 Domains
-        - 10 Websites
-        - 10 Databases
-        - 10 SSL Certificates
-        - 10 Support Tickets
-    - title: Premium
-      description: A premium plan for large teams.
-      price: $29.99
+        - ☘️ Up To 50% Off Drinks
+        - ☘️ Kick-off, Halftime & After Party
+        - ☘️ Up To 20% Off Select Foods
+        - ☘️ 100s of participants
+        - ☘️ Digital Bar List
+        - ☘️ DJs @ Select Bars
+        - ☘️ Door Cover Charges Waived
+        - ☘️ Free Entry To Top Venues
+        - ☘️ Photographers & or Videographers
+        - ☘️ Tasty Themed Drink Specials
+    - title: Door Price
+      description: Don't wait til the last minute.
+      price:
+        saturday: $50.00
+        sunday: $25.00
       align: top
       button:
-        label: Get Started
+        label: Get Tickets
         color: gray
+        disabled: true
       features:
-        - 100 GB Storage
-        - 100 Email Accounts
-        - 100 Domains
-        - 100 Websites
-        - 100 Databases
-        - 100 SSL Certificates
-        - 100 Support Tickets
+        - ☘️ Up To 50% Off Drinks
+        - ☘️ Kick-off, Halftime & After Party
+        - ☘️ Up To 20% Off Select Foods
+        - ☘️ 100s of participants
+        - ☘️ Digital Bar List
+        - ☘️ DJs @ Select Bars
+        - ☘️ Door Cover Charges Waived
+        - ☘️ Free Entry To Top Venues
+        - ☘️ Photographers & or Videographers
+        - ☘️ Tasty Themed Drink Specials
 testimonials:
   headline: Testimonials
   title: What our customers are saying.
   description: Proident sunt exercitation minim laborum enim laboris labore esse.
   items:
-    - quote: Nostrud tempor sunt fugiat. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip.
+    - quote: Love getting tickets for events through these guys. They are always reliable and anytime theres an issue they always resolve it in the best way for the customer. I also love the features of text support and facebook messenger because it allows problems to get solved so much faster than emailing! Most events send the tickets through eventbrite but I like buying from Bar Crawl live because they are super accomodating.
       author:
-        name: Rose Roberson
-        description: CEO at Company
+        name: Megan Russell
+        description: Cleveland, OH
         avatar:
           src: https://i.pravatar.cc/120?img=1
           loading: lazy
-    - quote: Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation.
+    - quote: My Friends and I had sooo much fun at the Christmas Bar Crawl & we're really excited for the StaticRange. Patty's Bar Crawl! It's such a good time!
       author:
-        name: Chace Rodgers
-        description: CEO at Company
+        name: Shania Holmes
+        description: Cleveland, OH
         avatar:
           src: https://i.pravatar.cc/120?img=7
           loading: lazy
-    - quote: Id duis velit enim officia ad nisi incididunt magna ex dolor minim deserunt dolor. Esse incididunt cillum nostrud esse do quis amet labore amet nulla eiusmod amet nulla Lorem. Incididunt ex voluptate irure officia laboris ea proident est qui.
+    - quote: Great bar crawls everytime. Lots of options depending on what you're in the mood for and what kind of vibe you're looking for. The drink and food specials are also good and the people running things tend to be very nice. Would definitely recommend.
       author:
-        name: Cornelius Sheppard
+        name: Sharon Pruit-Young
         description: CEO at Company
         avatar:
           src: https://i.pravatar.cc/120?img=3
           loading: lazy
-    - quote: Velit consectetur in adipisicing culpa eiusmod commodo eu ex dolore. Officia irure nisi dolor dolore velit fugiat. Aliqua sint aliqua aute elit eu sunt.
+    - quote: Bar Crawl Live is an awesome event. This has been a tradition for my friends and I. We've attended the Tacos & Margaritas Crawl, Halloween & St Patrick's day crawl. Venues are always nice, great drink and food specials.
       author:
-        name: Destinee Woods
-        description: CEO at Company
+        name: Minnie J
+        description: Cleveland, OH
         avatar:
           src: https://i.pravatar.cc/120?img=5
           loading: lazy
-    - quote: Proident quis deserunt qui ex exercitation veniam id Lorem est cupidatat ipsum irure aliquip ad.
+    - quote: We went for halloween bar crawl ans it was a blast! And we recently bought 10 tickets for the st pattys day and they generously took their time to help us switch every ticket to a different date! Whoever I was talking to on insta was so kind, patient and extremely helpful. Will always buy tickets to participate in detroit bar crawls.
       author:
-        name: Kaleb Mccormick
-        description: CEO at Company
+        name: Kayleen Rubio
+        description: Cleveland, OH
         avatar:
           src: https://i.pravatar.cc/120?img=8
           loading: lazy
-    - quote: Magna officia quis ea ea in officia non voluptate ipsum culpa do labore sunt. Aute est dolore commodo sint officia ad laboris dolor magna aliquip exercitation tempor commodo.
+    - quote: I wanted to go their St Patrick's day bar crawl as my bday is in st pattys day. I reached out and they hooked me up with a free ticket. I had already bought 6 for some friends but who doesn't like free stuff. They responded right away made everything fast and easy.
       author:
-        name: Jazmin Mccall
-        description: CEO at Company
+        name: Jerry Zavala
+        description: Cleveland, OH
+        avatar:
+          src: https://i.pravatar.cc/120?img=9
+          loading: lazy
+    - quote: The funnest bar crawls I've ever done and so well organizaed!!! 10/10.
+      author:
+        name: Katherine Ruiz
+        description: Cleveland, OH
         avatar:
           src: https://i.pravatar.cc/120?img=9
           loading: lazy
@@ -156,18 +179,20 @@ cta:
       size: xl
 faq:
   title: Frequently asked questions
-  description: Culpa consectetur dolor pariatur commodo aliqua amet tempor nisi enim deserunt elit cillum.
+  description: Here's what people usually ask us about the St. Patrick's Day Bar Crawl.
   items:
-    - label: Is this a secure service?
-      content: Qui sunt nostrud aliquip reprehenderit enim proident veniam magna aliquip velit occaecat eiusmod nisi deserunt sunt.
+    - label: How does a pub crawl or bar crawl work?
+      content: Join the ultimate party experience by purchasing your general admission or VIP ticket in advance. The week of the crawl you'll receive a digital bar list via email, which acts as your guide throughout the event. This digital bar list provides essential details such as wristband registration, participating venues' hours, featured specials, contest locations, and more, ensuring you have all the information you need for an unforgettable night of bar hopping.
       defaultOpen: true
-    - label: How can I cancel my subscription?
-      content: Consectetur irure Lorem nostrud adipisicing aliqua mollit Lorem sit officia magna eiusmod cupidatat.
-    - label: How does the free trial work?
-      content: Quis officia commodo magna eu qui aliquip duis.
-    - label: Can I switch plans later?
-      content: Dolore irure ullamco dolore eu occaecat magna eiusmod dolor aliqua culpa labore.
-    - label: Do you offer refunds?
-      content: Duis mollit nostrud voluptate mollit Lorem dolore commodo veniam incididunt eiusmod.
-    - label: Do you offer support?
-      content: Aliqua sit nisi consequat pariatur Lorem minim irure qui.
+    - label: What are the benefits of participating in a pub crawl?
+      content: By joining our pub crawl or bar crawl, you gain exclusive benefits with our wristband, including FREE full-access entry to top bars and nightclubs, up to 50% discounts on drinks and food, the opportunity to socialize with like-minded individuals and discover new establishments while creating unforgettable memories on this must-attend event.
+    - label: Do I need to purchase a ticket in advance?
+      content: Yes, we highly recommend purchasing your ticket in advance. Our events often sell out, and we wouldn't want you to miss out on the fun. Tickets are available online until the day of the event or until sold out.
+    - label: Do I have to wear green for the St. Patrick's Bar Crawl?
+      content: While it's not mandatory, wearing green is highly encouraged! Embracing the Irish spirit and dressing in green adds to the festive atmosphere and might even score you some extra luck of the Irish throughout the crawl.
+    - label: Do I have to be Irish to join the St. Patrick's Day Bar Crawl?
+      content: Not at all! Everyone's Irish on St. Patrick's Day! The St. Patrick's Day Bar Crawl is open to everyone who wants to join in the fun and celebrate the holiday.
+    - label: Will there be Corned Beef or Reubens during the St. Patrick's Bar Crawl?
+      content: Of course! Our mouths are watering for a good Reuben. Oh, and we make sure not to forget the Thousand Island Dressing. Try washing it down with an Irish Car Bomb or a Green Tea shot!
+    - label: What should I expect for the St. Patrick's Bar Crawl?
+      content: The St. Patrick's Bar Crawl is an absolute blast! Imagine being surrounded by a sea of people in green, sipping on green beer at the best pubs, bars, and clubs while dancing to some trendy Celtic music. We are positive that you'll have a ton of fun!
