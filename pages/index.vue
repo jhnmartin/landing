@@ -132,14 +132,13 @@ const cardTitle = ref({
       </ULandingGrid>
     </ULandingSection>
     <ULandingSection
+      id="features"
       :title="page.features.title"
       :description="page.features.description"
       :headline="page.features.headline"
+      class="scroll-mt-[var(--header-height)]"
     >
-      <UPageGrid
-        id="features"
-        class="scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
-      >
+      <UPageGrid>
         <ULandingCard
           v-for="(item, index) in page.features.items"
           :key="index"
@@ -160,7 +159,7 @@ const cardTitle = ref({
       id="faq"
       :title="page.faq.title"
       :description="page.faq.description"
-      class="scroll-mt-[var(--header-height)]"
+      class="scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
     >
       <ULandingFAQ
         multiple

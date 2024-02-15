@@ -4,20 +4,20 @@ const { activeHeadings, updateHeadings } = useScrollspy();
 
 const links = computed(() => [
   {
-    label: "Features",
-    to: "#features",
-    icon: "i-heroicons-cube-transparent",
-    active:
-      activeHeadings.value.includes("features") &&
-      !activeHeadings.value.includes("pricing"),
-  },
-  {
     label: "Get Tickets",
     to: "#pricing",
     icon: "i-heroicons-credit-card",
     active:
       activeHeadings.value.includes("pricing") &&
       !activeHeadings.value.includes("testimonials"),
+  },
+  {
+    label: "Features",
+    to: "#features",
+    icon: "i-heroicons-cube-transparent",
+    active:
+      activeHeadings.value.includes("features") &&
+      !activeHeadings.value.includes("pricing"),
   },
   {
     label: "FAQ",
@@ -35,8 +35,8 @@ const links = computed(() => [
 
 nuxtApp.hooks.hookOnce("page:finish", () => {
   updateHeadings([
-    document.querySelector("#features"),
     document.querySelector("#pricing"),
+    document.querySelector("#features"),
     document.querySelector("#faq"),
     document.querySelector("#testimonials"),
   ]);
