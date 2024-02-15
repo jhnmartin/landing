@@ -76,7 +76,6 @@ const isSunday = ref(false);
         />
       </UPageGrid>
     </ULandingSection>
-
     <ULandingSection
       id="pricing"
       :title="page.pricing.title"
@@ -87,7 +86,7 @@ const isSunday = ref(false);
         <ULandingCard
           class="col-span-6"
           title="Saturday March 16th"
-          description="LIMITED TIME OFFER: Save 20% of general admission tickets with promocode LUCKY20"
+          description="LIMITED TIME OFFER: Save 20% of general admission tickets"
           icon="i-heroicons-ticket-solid"
           color="primary"
         >
@@ -112,7 +111,7 @@ const isSunday = ref(false);
         <ULandingCard
           class="col-span-6"
           title="Sunday March 17th"
-          description="LIMITED TIME OFFER: Save 20% of general admission tickets with promocode LUCKY20"
+          description="LIMITED TIME OFFER: Save 20% of general admission tickets"
           icon="i-heroicons-ticket-solid"
           color="primary"
         >
