@@ -19,6 +19,17 @@ defineOgImage({
 });
 
 const isSunday = ref(false);
+
+const cardTitle = ref({
+  label: "Sunday March 17th",
+  color: "primary",
+  icon: "i-heroicons-ticket-solid",
+  ui: {
+    title: {
+      class: "text-4xl",
+    },
+  },
+});
 </script>
 
 <template>
@@ -89,8 +100,9 @@ const isSunday = ref(false);
           description="LIMITED TIME OFFER: Save 20% of general admission tickets"
           icon="i-heroicons-ticket-solid"
           color="primary"
+          :ui="{ title: 'text-3xl' }"
         >
-          <p class="text-4xl font-medium">
+          <p class="text-3xl font-medium">
             <span class="line-through text-2xl mr-2">$20.00</span>$16.00
           </p>
 
@@ -114,8 +126,9 @@ const isSunday = ref(false);
           description="LIMITED TIME OFFER: Save 20% of general admission tickets"
           icon="i-heroicons-ticket-solid"
           color="primary"
+          :ui="{ title: 'text-3xl' }"
         >
-          <p class="text-4xl font-medium">
+          <p class="text-3xl font-medium">
             <span class="line-through text-2xl mr-2">$20.00</span>$16.00
           </p>
 
