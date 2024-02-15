@@ -63,8 +63,14 @@ nuxtApp.hooks.hookOnce("page:finish", () => {
 
       <UDivider class="my-6" />
 
-      <UButton label="GET TICKETS" block class="mb-3" />
-      <UButton label="Bar Crawl LIVE!" color="white" block />
+      <UButton label="GET TICKETS" block class="mb-3" to="#pricing" />
+      <UButton
+        label="Bar Crawl LIVE!"
+        color="white"
+        block
+        to="https://www.barcrawllive.com/"
+        target="_blank"
+      />
     </template>
   </UHeader>
 </template>
