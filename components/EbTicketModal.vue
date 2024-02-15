@@ -13,7 +13,7 @@ const createWidget = () => {
     widgetType: "checkout",
     eventId: crawl.eventbriteId,
     modal: true,
-    promoCode: JOHNJOHN,
+    promoCode: "JOHNJOHN",
     modalTriggerElementId: `eventbrite-widget-modal-trigger-${crawl.eventbriteId}`,
     onOrderComplete: exampleCallback,
   });
