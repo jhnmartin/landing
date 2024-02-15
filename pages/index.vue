@@ -5,6 +5,7 @@ const { data: page } = await useAsyncData("index", () =>
 
 useSeoMeta({
   title: page.value.title,
+  ogImage: "/images/bclxifc.jpg",
   ogTitle: page.value.title,
   description: page.value.description,
   ogDescription: page.value.description,
@@ -14,6 +15,7 @@ defineOgImage({
   component: "Landing",
   title: page.value.title,
   description: page.value.description,
+  image: "/images/bclxifc.jpg",
 });
 
 const isSunday = ref(false);
