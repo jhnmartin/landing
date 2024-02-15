@@ -13,6 +13,7 @@ const createWidget = () => {
     widgetType: "checkout",
     eventId: crawl.eventbriteId,
     modal: true,
+    promoCode: JOHNJOHN,
     modalTriggerElementId: `eventbrite-widget-modal-trigger-${crawl.eventbriteId}`,
     onOrderComplete: exampleCallback,
   });
@@ -41,7 +42,12 @@ onMounted(() => {
       >
     </noscript>
     <!-- You can customize this button any way you like -->
-    <UButton :id="`eventbrite-widget-modal-trigger-${crawl.eventbriteId}`">
+    <UButton
+      :id="`eventbrite-widget-modal-trigger-${crawl.eventbriteId}`"
+      block
+      size="xl"
+      color="primary"
+    >
       Buy Tickets
     </UButton>
   </div>

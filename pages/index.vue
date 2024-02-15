@@ -81,6 +81,58 @@ const isSunday = ref(false);
       :description="page.pricing.description"
       :headline="page.pricing.headline"
     >
+      <ULandingGrid>
+        <ULandingCard
+          class="col-span-6"
+          title="Saturday March 16th"
+          description="LIMITED TIME OFFER: Save 20% of general admission tickets with promocode LUCKY20"
+          icon="i-heroicons-ticket-solid"
+          color="primary"
+        >
+          <p class="text-4xl font-medium">
+            <span class="line-through text-2xl mr-2">$20.00</span>$16.00
+          </p>
+
+          <ul class="mb-8">
+            <li>☘️ Up To 50% Off Drinks</li>
+            <li>☘️ Kick-off, Halftime & After Party</li>
+            <li>☘️ Up To 20% Off Select Foods</li>
+            <li>☘️ 100s of participants</li>
+            <li>☘️ Digital Bar List</li>
+            <li>☘️ DJs @ Select Bars</li>
+            <li>☘️ Door Cover Charges Waived</li>
+            <li>☘️ Free Entry To Top Venues</li>
+            <li>☘️ Photographers & or Videographers</li>
+            <li>☘️ Tasty Themed Drink Specials</li>
+          </ul>
+          <EbTicketModal eventbrite-id="795728173387" />
+        </ULandingCard>
+        <ULandingCard
+          class="col-span-6"
+          title="Sunday March 17th"
+          description="LIMITED TIME OFFER: Save 20% of general admission tickets with promocode LUCKY20"
+          icon="i-heroicons-ticket-solid"
+          color="primary"
+        >
+          <p class="text-4xl font-medium">
+            <span class="line-through text-2xl mr-2">$20.00</span>$16.00
+          </p>
+
+          <ul class="mb-8">
+            <li>☘️ Up To 50% Off Drinks</li>
+            <li>☘️ Kick-off, Halftime & After Party</li>
+            <li>☘️ Up To 20% Off Select Foods</li>
+            <li>☘️ 100s of participants</li>
+            <li>☘️ Digital Bar List</li>
+            <li>☘️ DJs @ Select Bars</li>
+            <li>☘️ Door Cover Charges Waived</li>
+            <li>☘️ Free Entry To Top Venues</li>
+            <li>☘️ Photographers & or Videographers</li>
+            <li>☘️ Tasty Themed Drink Specials</li>
+          </ul>
+          <EbTicketModal eventbrite-id="795737350837" />
+        </ULandingCard>
+      </ULandingGrid>
     </ULandingSection>
 
     <!--
@@ -130,6 +182,5 @@ const isSunday = ref(false);
         </div>
       </UPageColumns>
     </ULandingSection>
-    <EbTicketModal eventbriteId="795728173387" />
   </div>
 </template>

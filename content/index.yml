@@ -50,7 +50,6 @@ pricing:
       description: Standard Tickets From Bar Crawl Live
       price:
         saturday: $20.00
-        sunday: $20.00
       align: top
       button:
         label: Get Tickets
@@ -70,34 +69,12 @@ pricing:
     - title: I'm From Cleveland tix
       description: get your IFC discounted tickets and take 20% off general admission.
       price:
-        saturday: save 20%
-        sunday: save 20%
+        saturday: $20.00
       highlight: true
       scale: true
       align: top
       button:
         label: Get Tickets now
-      features:
-        - ☘️ Up To 50% Off Drinks
-        - ☘️ Kick-off, Halftime & After Party
-        - ☘️ Up To 20% Off Select Foods
-        - ☘️ 100s of participants
-        - ☘️ Digital Bar List
-        - ☘️ DJs @ Select Bars
-        - ☘️ Door Cover Charges Waived
-        - ☘️ Free Entry To Top Venues
-        - ☘️ Photographers & or Videographers
-        - ☘️ Tasty Themed Drink Specials
-    - title: Door Price
-      description: Don't wait til the last minute.
-      price:
-        saturday: $50.00
-        sunday: $25.00
-      align: top
-      button:
-        label: Get Tickets
-        color: gray
-        disabled: true
       features:
         - ☘️ Up To 50% Off Drinks
         - ☘️ Kick-off, Halftime & After Party
