@@ -13,7 +13,7 @@ const createWidget = () => {
     widgetType: "checkout",
     eventId: crawl.eventbriteId,
     modal: true,
-    //promoCode: "IFCSTPATS",
+    promoCode: "IFCSTPATS",
     modalTriggerElementId: `eventbrite-widget-modal-trigger-${crawl.eventbriteId}`,
     onOrderComplete: exampleCallback,
   });
